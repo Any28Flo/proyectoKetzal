@@ -22,13 +22,17 @@
             <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 formulario1">
                 <form>
                     <h1 class="titulos">INICIAR SESIÓN</h1>
+                    <div id="alertausuario">
+                        
+                    </div>
                     <div class="separacion">
                         <!--  separacion -->
                     </div>
+                    
 
 
                     <div class="campos col-11">
-                        <label>Correo electrónico </label>
+                        <label>Correo electrónico * </label>
                         <input type="email" id="correop" class="form-control colorinput">
                     </div> <!-- correo electronico campo-->
                     <div class="separacion">
@@ -36,7 +40,7 @@
                     </div>
 
                     <div class="campos col-11">
-                        <label>Contraseña </label>
+                        <label>Contraseña *</label>
                         <input type="password" id="contraseñap" class="form-control colorinput">
                     </div> <!--  Contraseña campo -->
                     <div class="renglon">
@@ -54,12 +58,10 @@
 
             <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 align-items-center formulario2">
                 <form>
-
+                    <h1 class="titulos">¿ERES NUEVO?</h1>
                     <div id="alertanombre">
 
                     </div>
-
-                    <h1 class="titulos">¿ERES NUEVO?</h1>
 
                     <div class="renglon">
                         <!--  separacion -->
@@ -69,7 +71,7 @@
                         <input type="text" id="nombreusuario1" onchange="validar1()" class="form-control colorinput">
                     </div>
                     <div class="campos col-11">
-                        <label for="mail">Correo electrónico</label>
+                        <label for="mail">Correo electrónico *</label>
                         <input type="email" id="mail" onchange="validar2()" class="form-control colorinput">
 
                     </div>
